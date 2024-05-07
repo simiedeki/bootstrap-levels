@@ -1,0 +1,21 @@
+
+.primary {
+  background-color: #007BFF; /* Blue background */
+  padding: 10px; /* Padding around the content */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* Center text alignment */
+  display: inline-block;
+}
+
+.primary a {
+  color: white; /* White text for the link */
+  font-weight: bold; /* Bold font for emphasis */
+  text-decoration: none; /* No underline to look more like a button */
+  padding: 5px 10px; /* Smaller padding around the text */
+  display: inline; /* Inline display to fit the content */
+  transition: background-color 0.3s, color 0.3s; 
+}
+.primary a:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+ /* Change text color to gold on hover */
+}
